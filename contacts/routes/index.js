@@ -51,6 +51,7 @@ router.post('/seed', function(req,res) {
 
 router.get('/banan', function(req, res) {
   console.log('bananer');
+  res.render(banan,{});
 });
 
 module.exports = router;
